@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgres": {
+    "name": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://postgres:postgres@localhost/todos",
+    "database": "todos",
+    "password": "postgres",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
