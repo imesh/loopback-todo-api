@@ -17,7 +17,7 @@
     "user": {
       "type": "belongsTo",
       "model": "user",
-      "foreignKey": "todoId"
+      "foreignKey": "userId"
     }
   },
   "acls": [],
