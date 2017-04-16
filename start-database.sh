@@ -8,4 +8,4 @@ if [[ $existing_container = "$name" ]]; then
 fi    
 
 echo "Starting ${name}..."
-docker run -p 5432:5432 --name ${name} -e POSTGRES_DB=todos -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e -d postgres 
+docker run -p 5432:5432 --name ${name} -e POSTGRES_DB=todos -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d postgres 
